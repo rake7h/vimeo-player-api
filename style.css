@@ -1,0 +1,31 @@
+.video-box-contanier {
+transition: all .2s ease-in-out;
+position: absolute;
+width: 840px;
+height: 473px;;
+}
+
+.video-box-cover {
+  background: url("http://fontysblogt.nl/wp-content/uploads/2016/03/Overzichtsfoto-Blog-1080x675.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+  width: inherit;
+
+}
+.video-box-playbutton i {
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+  color: #F65700;
+}
+.video-box-playbutton i:hover {
+  transform: scale(1.1);
+  text-shadow: 0px 0px 8px #ff610a;
+}
+.hide {
+  display: none;
+}
